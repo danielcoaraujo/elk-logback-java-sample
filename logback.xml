@@ -36,5 +36,10 @@
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="STASH"/>
     </logger>
+    
+    <logger name="oi.digital.chatbot.aspect.ChatbotAspect" level="DEBUG" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="STASH"/>
+    </logger>
 
 </configuration>
